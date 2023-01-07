@@ -3,6 +3,7 @@ import "./App.css";
 import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import User from "./components/User";
 // import PageNotFound from "./components/PageNotFound";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutUs" element={<About />} />
+        <Route path="/user/:name" element={<User/>}/>
         {/* <Route path="/*" element={<PageNotFound />} /> */}
         <Route path="/*" element={<Navigate to={"/"} />} />
       </Routes>
