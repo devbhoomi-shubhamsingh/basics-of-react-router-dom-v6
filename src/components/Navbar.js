@@ -88,6 +88,17 @@ const Navbar = () => {
           Filter
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/login"
+          className="navbarLink"
+          // style={({ isActive }) => {
+          //   return { color: isActive ? "red" : "black" };
+          // }}
+        >
+          Login
+        </NavLink>
+      </li>
     </ul>
   );
 };
