@@ -77,6 +77,17 @@ const Navbar = () => {
           User
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/filter"
+          className="navbarLink"
+          // style={({ isActive }) => {
+          //   return { color: isActive ? "red" : "black" };
+          // }}
+        >
+          Filter
+        </NavLink>
+      </li>
     </ul>
   );
 };

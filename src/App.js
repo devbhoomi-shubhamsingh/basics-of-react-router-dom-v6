@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import About from "./components/About";
+import Filter from "./components/Filter";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import User from "./components/User";
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutUs" element={<About />} />
         <Route path="/user/:name" element={<User/>}/>
+        <Route path="/filter" element={<Filter />} />
         {/* <Route path="/*" element={<PageNotFound />} /> */}
         <Route path="/*" element={<Navigate to={"/"} />} />
       </Routes>
