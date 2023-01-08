@@ -10,21 +10,25 @@ ul > li {
   list-style-type: none;
   font-size: 1.5vw;
 }
-.navbar{
+.navbar {
   text-align: right;
 }
-.navbar li{
+.navbar li,
+.contactus-navbar li {
   display: inline-block;
   padding: 10px 5px;
 }
-.navbarLink{
+.navbarLink {
   color: black;
   text-decoration: none;
   font-weight: bold;
 }
-.navbarLink:hover{
+.navbarLink:hover {
   color: green;
 }
-.navbar .active{
+.navbar .active {
   color: red;
+}
+.contactus-navbar {
+  text-align: center;
 }

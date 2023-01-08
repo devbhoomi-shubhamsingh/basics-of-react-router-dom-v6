@@ -47,7 +47,8 @@ const Filter = () => {
       </div>
       <br />
       <h2>
-        The value of Age = {age || "N.A"} and the value of City = {city || "N.A"}
+        The value of Age = {age || "N.A"} and the value of City ={" "}
+        {city || "N.A"}
       </h2>
     </>
   );
