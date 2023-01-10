@@ -2,12 +2,11 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const About = () => {
-
   const location = useLocation();
   console.log("useLocation Hook Data:: ", location);
 
-  const {state} = location;
-  console.log('Location State Data: ', state)
+  const { state } = location;
+  console.log("Location State Data: ", state);
 
   /* OUTPUT */
   /*
